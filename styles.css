@@ -1,5 +1,5 @@
 /* general styling */
-h1 {
+h1,  #resume h3{
     text-align: center;
     font-family: 'Nunito', sans-serif; 
 }
@@ -16,6 +16,24 @@ h1 {
     transition: all 0.5s;
     margin: 5px;
     text-decoration: none;
+}
+
+#resume {
+    width: 85%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#resume h4 {
+    font-family: 'Nunito', sans-serif; 
+}
+
+#resume-header a{
+    text-decoration: none;
+    color: #20275B;
 }
 
 /* nav-bar main styling */
