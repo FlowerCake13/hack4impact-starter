@@ -1,5 +1,5 @@
 /* general styling */
-h1,  #resume h3, h2{
+h1,  #resume h3, h2 {
     text-align: center;
     font-family: 'Nunito', sans-serif; 
 }
@@ -55,6 +55,38 @@ h1,  #resume h3, h2{
     background-color: #919C7B;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+/* contact page styling */
+.form-container {
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.form-container h3 {
+    font-family: 'Nunito', sans-serif; 
+    font-size: larger;
+}
+
+.form-input {
+    margin-top: 5px;
+}
+
+#name, #email {
+    width: 45%;
+}
+
+#subject, #message {
+    width: 91%;
+}
+
+#message {
+    height: 10em;
+    margin-bottom: 10px;
+}
+
+.form-container i {
+    font-size: large;
 }
 
 /* nav-bar main styling */
