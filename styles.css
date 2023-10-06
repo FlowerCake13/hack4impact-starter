@@ -1,3 +1,23 @@
+/* general styling */
+h1 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif; 
+}
+
+#learn_more {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #D9AE94;
+    border: none;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    transition: all 0.5s;
+    margin: 5px;
+    text-decoration: none;
+}
+
 /* nav-bar main styling */
 body {
     background-color: #D5D5D5;
